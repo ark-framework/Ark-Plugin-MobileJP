@@ -14,15 +14,19 @@ __END__
 
 =head1 NAME
 
-Ark::Plugin::MobileJP - It's new $module
+Ark::Plugin::MobileJP - Ark plugins for japanese feature phones
 
 =head1 SYNOPSIS
 
-    use Ark::Plugin::MobileJP;
+    use Ark;
+    use_plubins qw/
+        MobileAgent
+        Encoding::MobileJP
+    /;
 
 =head1 DESCRIPTION
 
-Ark::Plugin::MobileJP is ...
+Ark::Plugin::MobileJP is Ark plugins collection for japanese feature phones.
 
 =head1 LICENSE
 
@@ -36,4 +40,3 @@ it under the same terms as Perl itself.
 Songmu E<lt>y.songmu@gmail.comE<gt>
 
 =cut
-
