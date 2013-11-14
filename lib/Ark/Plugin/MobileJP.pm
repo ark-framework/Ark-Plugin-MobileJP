@@ -37,6 +37,8 @@ it under the same terms as Perl itself.
 
 =head1 AUTHOR
 
+Daisuke Murase <typester@cpan.org>
+
 Songmu E<lt>y.songmu@gmail.comE<gt>
 
 =cut

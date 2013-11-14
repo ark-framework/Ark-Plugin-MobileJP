@@ -23,4 +23,6 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
+Daisuke Murase <typester@cpan.org>
+
 Songmu <y.songmu@gmail.com>
