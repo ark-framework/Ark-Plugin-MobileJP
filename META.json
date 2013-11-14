@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Ark plugins for japanese feature phones",
    "author" : [
       "Songmu <y.songmu@gmail.com>"
    ],
@@ -43,7 +43,11 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Ark" : "0",
+            "Encode::JP::Mobile" : "0",
+            "HTTP::MobileAgent" : "0",
+            "HTTP::MobileAgent::Plugin::Charset" : "0",
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -53,5 +57,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ark-framework/Ark-Plugin-MobileJP/issues"
+      },
+      "homepage" : "https://github.com/ark-framework/Ark-Plugin-MobileJP",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ark-framework/Ark-Plugin-MobileJP.git",
+         "web" : "https://github.com/ark-framework/Ark-Plugin-MobileJP"
+      }
+   },
    "version" : "0.01"
 }

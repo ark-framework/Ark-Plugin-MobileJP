@@ -1,14 +1,18 @@
 # NAME
 
-Ark::Plugin::MobileJP - It's new $module
+Ark::Plugin::MobileJP - Ark plugins for japanese feature phones
 
 # SYNOPSIS
 
-    use Ark::Plugin::MobileJP;
+    use Ark;
+    use_plubins qw/
+        MobileAgent
+        Encoding::MobileJP
+    /;
 
 # DESCRIPTION
 
-Ark::Plugin::MobileJP is ...
+Ark::Plugin::MobileJP is Ark plugins collection for japanese feature phones.
 
 # LICENSE
 
